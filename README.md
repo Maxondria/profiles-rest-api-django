@@ -8,7 +8,7 @@ Learning and understanding Python Django Framework.
 - Create a ```requirements.txt``` file with dependencies necessary
 - Create a ```docker-compose.yml``` file.Mount a volume in which Django will create all the required files (Created ```src``` in this case)
 - Run ```docker-compose build [service-name]``` to build an image from a docker-compose service
-- Run a command on a container of the service using Django Admin:
+- Run a command to start a Django project on a container of the service using Django Admin:
 
 ```
 docker-compose run [service-name] django-admin.py startproject [app-name] .
